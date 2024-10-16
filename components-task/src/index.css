@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+.main-container{
+  width: 32%;
+  height: auto;
+  margin: 4rem auto;
+  background-color: #f8f8f8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.35rem;
+  border-radius: 1rem;
+  border: 1px solid #a5a5a5;
+}
+
+.username-container, .user-age-container, .user-occupation-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.2rem;
+}
+
+.username-container, .user-age-container, .user-occupation-container label{
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.username-container input, .user-age-container input, .user-occupation-container input{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid #c2c2c2;
+}
+
+.user-info-display {
+  margin-top: 1rem; 
+  padding: 1rem; 
+  border: 1px solid #c2c2c2; 
+  border-radius: 0.5rem; 
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.35rem;
+}
+
+.user-info-display p{
+  font-size: 0.9rem;
+  font-weight: 600;
+}
